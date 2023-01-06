@@ -23,31 +23,31 @@ public sealed class AutoCompleteList
     {
         return this.status == Status.idle;
     } 
-    public void SetFileName(string fileName)
+    public void SetFileName(String fileName)
     {
         if (!fileName.Equals(this.FileName))
         {
             this.SetStatus(Status.inactive);
-            this.path = "./Models/autoComplete/resource/" + fileName;
             this.FileName = fileName;
-            this.LoadList();
+            this.path = "./Models/autoComplete/resource/" + fileName;
+            this.LoadList(path);
         }
     }
     private Status status = Status.inactive;
     public Status GetStatus() { return this.status; }
     private void SetStatus(Status status) { this.status = status;}
    
-    public List<string> Match(string strinToSearch)
+    public List<String> Match(String strinToSearch)
     {
         if (!this.IsActive())
         {
-            return new List<string>();
+            return new List<String>();
         }
         try
         {
             //\b^al(.*)
             this.SetStatus(Status.processing);
-            string pattern = @"\b^" + strinToSearch + "(.*)";
+            String pattern = @"\b^" + strinToSearch + "(.*)";
             RegexOptions options = RegexOptions.Multiline;
             List<String> ret = Regex.Matches(values, pattern, options).Cast<Match>()
                    .Select(m => m.Value)
@@ -59,11 +59,11 @@ public sealed class AutoCompleteList
         catch (Exception)
         {
             this.SetStatus(Status.idle);
-            return new List<string>();
+            return new List<String>();
         }
     }
     //--------------------------------------------
-    private void LoadList()
+    private void LoadList(String path)
     {
 
         try
@@ -102,8 +102,23 @@ public sealed class AutoCompleteList
         }
     }
 
- 
+
     
+
+    public void  refresh()
+    {
+
+    }
+
+    public void addList (String listName, String values )
+    {
+
+    }
+
+    public void addValue (String listName , String value)
+    {
+
+    }
 
 
 

@@ -1,5 +1,16 @@
 import axios from "axios";
+const AXIOS_CONFIG = {
+  baseURL: "https://localhost:7152",
+  headers: {
+    accept: "application/json",
+    "Content-Type": "application/x-www-form-urlencoded",
+  },
+};
 
-const instance = axios.create();
+const ENDPOINTS = {
+  autoComplete: "api/AutoComplete/get_match",
+};
 
-export default instance;
+const httpClient = axios.create(AXIOS_CONFIG);
+
+export { httpClient, ENDPOINTS };

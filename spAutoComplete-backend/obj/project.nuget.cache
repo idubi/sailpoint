@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "yG4wuB4GNzcilV8r4V4BP+jz5wmZPSknkC6gtBnIm+1vtfWhM8ZgT31LAvb+HPNUETOINxf3txaeY0THrrQvJQ==",
+  "dgSpecHash": "aCYRPypCDXUSA/J85nU2RbaazNDBuLT8n/iACfxAiqpkS3LXzqMr6/lOimg7gS71s8r7TO1bVyP5210TgdL8Fw==",
   "success": true,
-  "projectFilePath": "E:\\SAILPOINT\\autocomplete-back\\spAutoComplete\\spAutoComplete\\spAutoComplete.csproj",
+  "projectFilePath": "/Users/idubim/projects/DOTNET/sailpoint/sailpoint/spAutoComplete-backend/spAutoComplete.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.app\\2.0.0\\microsoft.netcore.app.2.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.0.0\\microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.0.0\\microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.0.0\\microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512"
+    "/Users/idubim/.nuget/packages/microsoft.netcore.app/2.0.0/microsoft.netcore.app.2.0.0.nupkg.sha512",
+    "/Users/idubim/.nuget/packages/microsoft.netcore.dotnetapphost/2.0.0/microsoft.netcore.dotnetapphost.2.0.0.nupkg.sha512",
+    "/Users/idubim/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.0.0/microsoft.netcore.dotnethostpolicy.2.0.0.nupkg.sha512",
+    "/Users/idubim/.nuget/packages/microsoft.netcore.dotnethostresolver/2.0.0/microsoft.netcore.dotnethostresolver.2.0.0.nupkg.sha512",
+    "/Users/idubim/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/idubim/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }
